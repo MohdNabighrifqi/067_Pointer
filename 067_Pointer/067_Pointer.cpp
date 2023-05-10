@@ -14,5 +14,7 @@ void mahasiswa::shownim() { //implementasi method diluar class
 int main()
 {
 	mahasiswa mhs{ 1 };    //object mahasiswa
+	mhs.shownim();         //member access operator
+
 	
 }
