@@ -22,5 +22,7 @@ int main()
 
 	mahasiswa* pMhs = &mhs; //pointer defrenreces pMhs 
 	pMhs->nim = 3;          //Arrow Operator 
-	
+	pMhs->shownim();
+	system("pause");
+	return 0;
 }
